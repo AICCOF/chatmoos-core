@@ -1,6 +1,6 @@
 {
-    "name": "chatmoos-core",
-    "version": "1.0.0",
+    "name": "@chatmoos/core",
+    "version": "0.0.1",
     "author": "AICCOF",
     "license": "MIT",
     "description": "chatmoss核心框架包",

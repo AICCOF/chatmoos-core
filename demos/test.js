@@ -1,2 +1,2 @@
-import { test } from '../build/index.js'
+import { test } from '@chatmoos/core'
 test()
