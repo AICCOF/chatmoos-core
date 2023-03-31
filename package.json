@@ -1,0 +1,58 @@
+{
+  "name": "chatmoos-core",
+  "version": "1.0.0",
+  "description": "chatmoss核心框架包",
+  "type": "module",
+  "source": "./src/index.ts",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+        "import": "./build/index.js",
+        "types": "./build/index.d.ts",
+        "default": "./build/index.js"
+    }
+  },
+  "files": [
+    "build",
+    "bin"
+  ],
+  "bin": "./bin/cli.js",
+  "engines": {
+    "node": ">=14"
+  },
+
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AICCOF/chatmoos-core.git"
+  },
+  "keywords": [
+    "chatmoss",
+    "chatmoos-core",
+    "chatmoos-ui",
+    "gpt",
+    "chatgpt"
+  ],
+  "author": "AICCOF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AICCOF/chatmoos-core/issues"
+  },
+  "homepage": "https://github.com/AICCOF/chatmoos-core#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.7",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typedoc": "^0.23.28",
+    "typedoc-plugin-markdown": "^3.14.0",
+    "typescript": "^5.0.3"
+  }
+}

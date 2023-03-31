@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts"],"sourcesContent":["export const test = () => {\n    console.log('框架初始化测试')\n}\n"],"mappings":";AAAO,IAAM,OAAO,MAAM;AACtB,UAAQ,IAAI,4CAAS;AACzB;","names":[]}
