@@ -32,11 +32,6 @@
         "prepare": "husky install",
         "pre-commit": "lint-staged"
     },
-    "config": {
-        "commitizen": {
-            "path": "cz-conventional-changelog"
-        }
-    },
     "lint-staged": {
         "./src/**/*.{ts,tsx}": [
             "eslint"
@@ -56,7 +51,6 @@
     "homepage": "https://github.com/AICCOF/chatmoos-core#readme",
     "devDependencies": {
         "@types/node": "^18.15.11",
-        "commitizen": "^4.3.0",
         "husky": "^8.0.3",
         "lint-staged": "^13.2.0",
         "pre-commit": "^1.2.2",
